@@ -1,0 +1,85 @@
+body{
+     height: auto;
+     width: 100%;
+ }
+ form {
+     text-align: center;
+     width: 38%;
+     margin-left: 30%;
+     margin-right: 35%;
+ }
+
+ input[type=text] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 1px solid #e6e6e6;
+     border-radius: 25px;
+     outline: none;
+ }
+
+ input[type=submit], .li{
+     color: rgb(78, 78, 78);
+     margin-top: 20px;
+ }
+
+ input[type=submit]:hover, .li:hover{
+     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .title {
+     font-size: 88px;
+     font-weight: bolder;
+     margin-top: 100px;
+ }
+
+ footer{
+     position: absolute;
+     bottom: 5px;
+     width: 100%;
+     font-size: 15px;
+ }
+
+ .txt-sm{
+     text-align: center;
+     font-size: 15px;
+     color: blue;
+     padding-top: 25px;
+ }
+
+
+ @media only screen and (max-width: 950px) {
+     form {
+          text-align: center;
+          width: 60%;
+          margin-left: 20%;
+          margin-right: 20%;
+      }
+}
+
+@media only screen and (max-width: 800px) {
+     form {
+          text-align: center;
+          width: 60%;
+          margin-left: 20%;
+          margin-right: 20%;
+      }
+
+      .title {
+          font-size: 88px;
+          font-weight: bolder;
+          text-align: center;
+          margin-top: 100px;
+      }
+
+     header {
+          text-align: right;
+     }
+
+     .sm-cr{
+          padding: 10px;
+          text-align: center;
+     }
+     
+}
